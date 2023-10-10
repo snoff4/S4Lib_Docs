@@ -1,9 +1,9 @@
 # Tool Window
 
 ```c++
-
 namespace S4Lib
 {
+
 	class ToolWindow
 	{
 		friend class S4Editor;
@@ -36,4 +36,5 @@ namespace S4Lib
 		void UpdateWindowTitle();
 		S4RESULT Example();
 	};
-}```
+}
+```
