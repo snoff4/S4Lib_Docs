@@ -1,5 +1,5 @@
 site_name: S4Lib API & Framework documentation
-site_url: https://snoff4.github.io/S4Lib_Docs/
+site_url: https://snoff4.github.io/S4Lib_Docs/index
 
 theme:
     name: 'material'
