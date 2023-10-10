@@ -1,4 +1,5 @@
-site_name: obsidian-mkdocs template
+site_name: S4Lib API & Framework documentation
+site_url: https://snoff4.github.io/S4Lib_Docs/
 
 theme:
     name: 'material'
@@ -7,7 +8,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: black
+      # primary: pink
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
@@ -16,16 +18,26 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: black
+      # primary: pink
       accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
 
+# Features
+features:
+    - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
